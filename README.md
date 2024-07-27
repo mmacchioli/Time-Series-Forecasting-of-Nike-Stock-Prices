@@ -1,3 +1,4 @@
+### Time Series Forecasting of Nike Stock Prices: A Value Investing Perspective
 
 ### Introduction to Value Investing Approach
 Value investing is predicated on the assumption that stock prices will eventually align with the underlying intrinsic value of the company. This intrinsic value is derived from fundamental variables such as sales, profits, margins, costs, and Free Cash Flow, among others. In the short term, market prices can be highly volatile, often swayed by news events or financial reports. However, over the long term, it is expected that prices will gravitate towards their intrinsic value, restoring market rationality. The value investing philosophy supports the notion that a shrewd investor should purchase stocks when their prices are below intrinsic value and sell them when prices are excessively high compared to the fundamental value. 

@@ -25,7 +25,7 @@ The financial metrics used in this analysis are sourced from stockrow.com, a rel
 ### Estimation Method
 
 Objective and Approach
-To estimate the fundamental price of Nike's stock, we initially identify the most predictive financial metrics. An Ordinary Least Squares (OLS) regression model is then employed, selecting Sells and EBITDA as primary predictors. These metrics were chosen for their significant roles in representing revenue and profitability, respectively.
+To estimate the fundamental price of Nike's stock, we initially identify the most predictive financial metrics. An Ordinary Least Squares (OLS) regression model is then employed, selecting Sales and EBITDA as primary predictors. These metrics were chosen for their significant roles in representing revenues and profitability, respectively.
 
 Statistical Significance and Model Efficacy
 The chosen variables are both statistically and economically significant, with the regression model explaining approximately 90% of the variance in Nike's stock price. This high degree of explanation underscores the robustness of the model in capturing key price drivers.
@@ -37,9 +37,9 @@ Regression Analysis Results
 
 ![image](https://github.com/user-attachments/assets/3830081a-c501-43b5-8a4d-ec83f8adcebf)
 
-![image](https://github.com/user-attachments/assets/e826f636-30d1-4664-9868-3afdb4a58ae6)
+![image](https://github.com/user-attachments/assets/2e99cb4f-ea68-4771-b1e9-b5d9050238d7)
 
-Finally, we apply the Hodrick-Prescott filter to isolate the trend components within the Sells and EBITDA series. These components are then utilized to estimate a linear projection in our OLS model. This method facilitates an effective evaluation of these trends, enabling us to accurately predict the fundamental price of Nike stocks
+Finally, we apply the Hodrick-Prescott filter to isolate the trend components within the Sales and EBITDA series. These components are then utilized to estimate a linear projection in our OLS model. This method facilitates an effective evaluation of these trends, enabling us to accurately predict the fundamental price of Nike stocks
 
 ![image](https://github.com/user-attachments/assets/9933ec67-2917-45ac-b4fb-47499bdfe5ef)
 

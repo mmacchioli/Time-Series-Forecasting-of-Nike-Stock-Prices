@@ -3,7 +3,12 @@
 ### Introduction to Value Investing Approach
 Value investing is based on the belief that stock prices will eventually align with a company's intrinsic value, which is calculated from fundamental financial metrics like sales, profits, margins, and cash flows. Although short-term market prices may be volatile due to various external influences such as news or financial reports, the intrinsic value acts like a gravitational force, steadily pulling the market price towards it over time. This principle suggests that investors should buy stocks when they are undervalued and sell when they are overvalued. 
 
-The gravitational metaphor, illustrated by the interaction between two spheres in the accompanying image, vividly demonstrates how the intrinsic value influences and ultimately guides market prices, asserting that despite temporary deviations, prices will converge on their true economic worth in the long run. This visualization and explanation underscore the core tenet of value investing: market rationality will prevail as prices gravitate towards their fundamental intrinsic values over the long term.
+The gravitational metaphor, illustrated by the interaction between two spheres in the accompanying image, vividly demonstrates how the intrinsic value influences and ultimately guides market prices, asserting that despite temporary deviations, prices will converge on their true economic worth in the long run. 
+
+This visualization and explanation underscore the core tenet of value investing: market rationality will prevail as prices gravitate towards their fundamental intrinsic values over the long term.
+
+![image](https://github.com/user-attachments/assets/fd668fde-35c7-47fa-bff0-8cf76f52fdd1)
+
 
 ### Objective
 The aim of this analysis is to determine the fundamental price of Nike stocks, which acts as a gravitational point drawing the current market price towards it. The primary objective is to estimate this fundamental value and project the time series for the next 24 months, assuming that the fundamental values remain relatively stable. 
@@ -34,8 +39,18 @@ Regression Analysis Results
 
 ![image](https://github.com/user-attachments/assets/e826f636-30d1-4664-9868-3afdb4a58ae6)
 
+Finally, we apply the Hodrick-Prescott filter to isolate the trend components within the Sells and EBITDA series. These components are then utilized to estimate a linear projection in our OLS model. This method facilitates an effective evaluation of these trends, enabling us to accurately predict the fundamental price of Nike stocks
+
+![image](https://github.com/user-attachments/assets/9933ec67-2917-45ac-b4fb-47499bdfe5ef)
+
 ### ARIMA Projections
-Using historical stock price data, an ARIMA model will be configured to forecast the price movements for the next two years. This section will detail the selection process for the ARIMA model parameters (p, d, q) and discuss the model’s fit and forecast accuracy. The model's predictions will be compared against the estimated intrinsic values to identify potential periods where the stock might be under- or over-valued.
+Using Fundamental stock price data, an ARIMA model will be configured to forecast the price movements for the next two years. This section will detail the selection process for the ARIMA model parameters (p, d, q) and discuss the model’s fit and forecast accuracy. The model's predictions will be compared against the estimated intrinsic values to identify potential periods where the stock might be under- or over-valued.
+
+To select the appropriate ARIMA model, we utilize the auto.arima function in RStudio, which determines the optimal ARIMA order by minimizing the AIC criterion
+
+![image](https://github.com/user-attachments/assets/5993e7cc-1182-47c4-a7d4-173961eac5bd)
+
+### Results
 
 ![image](https://github.com/user-attachments/assets/e1567b7e-915e-4c8e-b3f7-1a2e355914ad)
 

@@ -50,10 +50,11 @@ To select the appropriate ARIMA model, we utilize the auto.arima function in RSt
 
 ![image](https://github.com/user-attachments/assets/5993e7cc-1182-47c4-a7d4-173961eac5bd)
 
-### Results
+### Results and conclusions
+
+The analysis results show that, over the last year, Nike's stock price has been significantly lower than its fundamental values. According to value investing theory, this presents a good opportunity to buy Nike stock at the current price due to the substantial safety margin it offers. Furthermore, if the sales and EBITDA remain relatively stable, the continued decline in current prices could present an even more compelling buying opportunity.
 
 ![image](https://github.com/user-attachments/assets/e1567b7e-915e-4c8e-b3f7-1a2e355914ad)
 
-### Conclusions
-The conclusion will summarize the findings from the ARIMA model projections in the context of value investing. It will discuss the potential for Nike's stock to align with its fundamental value over the forecast period and provide investment strategy recommendations based on the predicted price movements. Additionally, it will highlight the limitations of the forecasting model and suggest areas for further research.
+
 

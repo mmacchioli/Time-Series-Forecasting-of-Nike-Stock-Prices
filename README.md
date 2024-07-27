@@ -35,7 +35,7 @@ The following images display the regression analysis results and the correlation
 
 Regression Analysis Results
 
-![image](https://github.com/user-attachments/assets/faa713ed-496d-43be-94b5-0a9b4c5f22aa)
+![image](https://github.com/user-attachments/assets/3830081a-c501-43b5-8a4d-ec83f8adcebf)
 
 ![image](https://github.com/user-attachments/assets/e826f636-30d1-4664-9868-3afdb4a58ae6)
 

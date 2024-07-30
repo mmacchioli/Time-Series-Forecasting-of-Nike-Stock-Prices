@@ -1,6 +1,6 @@
 ### Time Series Forecasting of Nike Stock Prices: A Value Investing Perspective
 
-This project applies value investing finance theory to estimate the fundamental price of Nike stocks, acting as a gravity force that trends the prices in the long run. Important and successful value investors such as Warren Buffett and Peter Lynch apply this method
+This project applies value investing finance theory to estimate the fundamental price of Nike stocks, acting as a gravity force that trends the prices in the long run. Important and successful value investors such as Warren Buffett and Peter Lynch apply this method. 
 
 ### Introduction to Value Investing Approach
 Value investing is based on the belief that stock prices will eventually align with a company's intrinsic value, which is calculated from fundamental financial metrics like sales, profits, margins, and cash flows. Although short-term market prices may be volatile due to various external influences such as news or financial reports, the intrinsic value acts like a gravitational force, steadily pulling the market price towards it over time. This principle suggests that investors should buy stocks when they are undervalued and sell when they are overvalued. 

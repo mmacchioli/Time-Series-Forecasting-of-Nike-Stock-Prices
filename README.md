@@ -48,6 +48,8 @@ Using Fundamental stock price data, an ARIMA model will be configured to forecas
 
 To select the appropriate ARIMA model, we utilize the auto.arima function in RStudio, which determines the optimal ARIMA order by minimizing the AIC criterion
 
+[ARIMA Models: https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average]
+
 ![image](https://github.com/user-attachments/assets/5993e7cc-1182-47c4-a7d4-173961eac5bd)
 
 ### Results and conclusions
